@@ -1,0 +1,28 @@
+{
+    "author": "Willem Vanhulle <willemvanhulle@gmail.com>",
+    "version": "0.0.1",
+    "dependencies": {
+        "@trivago/prettier-plugin-sort-imports": "4.2.0",
+        "prettier": "^3.0.3"
+    },
+ 
+    "logo": "./logo.png",
+    "main": "index.json",
+    "name": "@wvhulle/prettier-config-node",
+    "description": "Configuration for the Prettier formatter for Node.JS applications and libraries.",
+    "keywords": [
+        "formatter",
+        "Prettier",
+        "JavaScript",
+        "Node"
+    ],
+    "scripts": {
+        "prepublishOnly": "publint"
+    },
+    "repository": "https://github.com/wvhulle/prettier",
+    "license": "GPL-3.0-only",
+
+    "devDependencies": {
+        "publint": "^0.2.2"
+    }
+}
